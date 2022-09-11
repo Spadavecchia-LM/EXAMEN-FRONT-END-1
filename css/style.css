@@ -670,3 +670,18 @@ footer p {
     bottom: 15%;
   }
 }
+
+@media (max-width:390px){
+    .second-section{
+        margin-top: 200px; 
+    }
+    .footer-logo{
+        left: 35%;
+    }
+  .icons img{
+    margin: 15px;
+  }
+  .footer-3{
+    top: -250px;
+  }
+}
