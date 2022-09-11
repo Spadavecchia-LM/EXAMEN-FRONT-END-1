@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,10 +12,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/queries.css">
+    <link rel="stylesheet" href="./css/queries.css" />
     <title>MANAGE - Bring everyone together to build better products</title>
   </head>
   <body>
+    <!-- HEADER -->
     <header class="row row-around" id="inicio">
       <img src="./img/logo.svg" alt="logo" />
       <nav class="header-navbar">
@@ -28,12 +29,16 @@
         </ul>
       </nav>
       <button class="btn btn-header">Get started</button>
+      <!-- MENU HAMBURGUESA -->
       <span class="menu"
         ><img src="./img/icon-hamburger.svg" alt="hamburguesa"
       /></span>
     </header>
+    <!-- FINAL DEL HEADER -->
 
+    <!-- PUSE COLUMNA PARA  QUE LOS BLOQUES DE CONTENIDO ESTEN VERTICALMENTE DISTRIBUIDOS  -->
     <main class="column">
+      <!-- PRIMERA SECCION HERO Y STATS -->
       <section class="row row-center first-section">
         <div class="column first-section__h1">
           <h1>Bring everyone together to build better products.</h1>
@@ -47,7 +52,11 @@
           <img src="./img/ilustration-intro.svg" alt="stats" />
         </div>
       </section>
+      <!-- FINAL DE LA  PRIMERA SECCION HERO Y STATS -->
 
+      <!-- SEGUNDA SECCION PERKS -->
+
+      <!-- BLOQUE DE TEXTO A LA IZQUIERDA PRIMERO ARTICULO -->
       <section class="row second-section">
         <article>
           <div class="column second-section__h3">
@@ -58,8 +67,10 @@
               teams
             </p>
           </div>
+          <!-- FINAL DEL PRIMERO ARTICULO -->
         </article>
 
+        <!-- SEGUNDO ARTICULO DONDE INDICA LAS PERKS, EN ESTE CASO SON 3 -->
         <article class="column second-section__perks">
           <div class="column">
             <h4 class="perks row">
@@ -95,10 +106,15 @@
             </p>
           </div>
         </article>
+        <!-- FINAL DEL SEGUNDO ARTICULO DONDE INDICA LAS PERKS -->
       </section>
+      <!-- FINAL DE LA SEGUNDA SECCION PERKS -->
 
+      <!-- TERCERA SECCION, CARDS CON COMENTARIOS DE 3 PERSONAS -->
       <section class="column third-section">
         <h3>What they´ve said</h3>
+
+        <!-- CONTENEDOR DE LAS TARJETAS -->
         <article class="row row-around card-container">
           <div class="card">
             <img src="./img/avatar-ali.png" alt="ali" />
@@ -128,17 +144,22 @@
             </p>
           </div>
         </article>
-
+        <!-- FINAL DEL CONTENEDOR DE LAS TARJETAS -->
         <button class="btn">Get started</button>
       </section>
+      <!-- FINAL DE LA TERCERA SECCION -->
 
+      <!-- CUARTA Y ULTIMA SECCION -->
       <section class="row wrap row-around fourth-section">
         <h2>Simplify hoy your team words today.</h2>
         <button class="btn btn-secondary">Get started</button>
       </section>
+      <!-- FINAL DE LA CUARTA Y ULTIMA SECCION DEL MAIN -->
     </main>
 
+    <!-- FOOTER -->
     <footer class="row row-around">
+      <!-- PRIMER BLOQUE, LOGO E ICONOS DE REDES SOCIALES -->
       <div class="column footer-1">
         <a href="#inicio"
           ><img src="./img/logoblanco.png" alt="logo" class="footer-logo"
@@ -151,6 +172,7 @@
           <img src="./img/icon-instagram.svg" alt="inst" />
         </div>
       </div>
+      <!-- SEGUNDO BLOQUE, DOS NAVBAR VERTICALES -->
       <div class="row footer-2">
         <nav>
           <ul>
@@ -172,14 +194,18 @@
           </ul>
         </nav>
       </div>
+      <!-- TERCER Y ULTIMO BLOQUE, FORM Y TEXTO DE COPYRIGTH-->
       <div class="column footer-3">
         <form action="./contacto.php" method="POST" class="row">
           <input type="text" placeholder="Update in your inbox..." required />
           <button class="btn" type="submit">Go</button>
         </form>
+        <!-- COPYRIGHT PARA VERSION DE ESCRITORIO -->
         <p>Copyright 2020. All Rights Reserved</p>
       </div>
+      <!-- COPYRIGHT PARA MOBILE -->
       <p class="mobile-p">Copyright 2020. All Rights Reserved</p>
     </footer>
+    <!-- FINAL DEL FOOTER -->
   </body>
 </html>
