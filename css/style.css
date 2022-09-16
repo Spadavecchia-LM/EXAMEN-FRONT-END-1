@@ -328,7 +328,7 @@ footer p {
     flex-direction: column-reverse;
     height: 960px;
     width: 96vw;
-    margin: 0 3vw;
+    margin: 0 2vw;
   }
   .first-section__h1 {
     width: 100%;
@@ -406,7 +406,7 @@ footer p {
   .footer-3 form {
     position: absolute;
     top: 180px;
-    left: 0;
+    left: -50px;
   }
   .footer-3 p {
     display: none;
